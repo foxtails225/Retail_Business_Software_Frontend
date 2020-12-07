@@ -1,0 +1,88 @@
+.cushioncover-variant-container {
+
+    .card .table td:not(.td-action),
+    .card .table th {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .btn-createcushioncover {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .input-group-alternative {
+        box-shadow: 0 1px 5px rgba(2, 2, 2, 0.144), 0 1px 5px rgba(0, 0, 0, 0.158);
+    }
+
+    .div-searchbar-createcushioncover {
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        align-items: right;
+        justify-content: right;
+        float: right;
+    }
+
+    .fa-sort-alpha-up:before,
+    .fa-sort-alpha-down {
+        padding-left: 5px;
+    }
+
+    .table-responsive {
+        min-height: 570px;
+        border: 1px solid;
+        border-color: #f7eded;
+    }
+
+    .td-action {
+        text-align: center !important;
+        margin-right: 0em;
+    }
+
+    .btn:not(:last-child) {
+        margin-right: 0em;
+    }
+
+    .card .table td,
+    .card .table th {
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card .table th {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .card .table td {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .div-tbl-cushioncoversVariant {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        th {
+            background-color: $table-active-bg;
+            font-size: 0.8rem !important;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: $table-accent-bg;
+        }
+    }
+
+    .align-items-center {
+        table-layout: 'fixed'
+    }
+    .card .table .td-noredords {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+}

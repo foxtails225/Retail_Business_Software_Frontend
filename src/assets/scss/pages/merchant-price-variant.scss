@@ -1,0 +1,63 @@
+.merchant-price-variant-container {
+   
+    .card .table td:not(.td-action),
+    .card .table th {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .card .table td,
+    .card .table th {
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card .table th {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .card .table td {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+
+    .table-responsive {
+        border: 1px solid;
+        border-color: #f7eded;
+    }
+    .div-tbl-title-imgVar {
+        margin-left: 20px;
+        margin-right: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        align-items: left;
+        justify-content: left;
+        float: left;
+    }
+    .div-tbl-merchant-prices-variant {
+        margin-left: 20px;
+        margin-right: 20px;
+
+        th {
+            background-color: $table-active-bg;
+            font-size: 0.8rem !important;
+        }
+
+        tbody tr:nth-of-type(even) {
+            background-color: $table-accent-bg;
+        }
+    }
+
+    .align-items-center {
+        table-layout: 'fixed';
+    }
+
+    .card .table .td-noredords {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+}

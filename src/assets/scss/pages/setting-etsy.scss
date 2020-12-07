@@ -1,0 +1,17 @@
+.etsy-setting-container {
+    .div-tbl-etsy-setting {
+
+        th {
+            background-color: $table-active-bg;
+            font-size: 0.8rem !important;
+        }
+        tbody tr:nth-of-type(even) {
+            background-color: $table-accent-bg;
+        }
+
+        td {
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+        }
+    }
+}

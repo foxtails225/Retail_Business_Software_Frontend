@@ -1,0 +1,62 @@
+.product-create-container {
+  font-family: Open Sans, sans-serif;
+  .card-body {
+    margin-top: 20px;
+  }
+  .check-text {
+    font-size: 14px;
+  }
+  .list-group {
+    overflow-y: auto;
+    min-height: 620px;
+    max-height: 620px;
+    border: 1px solid #e9ecef;
+    border-radius: 6px;
+  }
+  .list-group-item {
+    padding: 0.7rem;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+  label {
+    font-size: 0.8rem;
+  }
+  input,
+  input::placeholder,
+  select {
+    font-size: 0.8rem;
+    color: #525f7f;
+  }
+  select {
+    cursor: pointer;
+  }
+  .label-hr {
+    margin-bottom: 0.3rem;
+  }
+  .invalid-feedback {
+    font-size: 0.8rem;
+  }
+  hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    width: 40%;
+  }
+  h4 {
+    color: #666666;
+  }
+  .invalid-category,
+  .invalid-keyword {
+    p {
+      margin-top: 10px;
+      margin-left: 20px;
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #fb6340;
+    }
+  }
+  ._loading_overlay_overlay {
+    border-radius: 6px;
+  }
+}

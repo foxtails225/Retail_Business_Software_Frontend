@@ -1,0 +1,15 @@
+.product-upload-container .upload-platform-card {
+  border: 2px solid #32325d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+  background-color: #e6e6e6;
+}
+.product-upload-container .upload-platform-card.checked {
+  border: 2px solid #3e3ee4;
+  box-shadow: none;
+  background-color: #fff;
+}
+.product-upload-container .upload-platform-card .upload-card-image {
+  width: auto;
+  height: 8vh;
+  max-height: 8vh;
+}

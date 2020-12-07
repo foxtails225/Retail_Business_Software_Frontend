@@ -1,0 +1,32 @@
+.performance-container {
+    hr {
+        margin-top: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .card .table td,
+    .card .table th {
+        padding: 0.5rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .card .table th {
+        padding-top: 0.7rem;
+        padding-bottom: 0.7rem;
+    }
+
+    .card .table td {
+        padding-top: 0.2rem;
+        padding-bottom: 0.2rem;
+    }
+}
+
+.artist-item-checkbox {
+    .custom-control-label::before {
+        left: -1.2rem;
+    }
+    .custom-control-label::after {
+        left: -1.2rem;
+    }
+}

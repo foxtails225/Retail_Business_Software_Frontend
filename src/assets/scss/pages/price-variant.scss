@@ -1,0 +1,83 @@
+.price-variant-container {
+
+  .card .table td:not(.td-action),
+  .card .table th {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-transform: initial;
+  }
+
+  .card .table td,
+  .card .table th {
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .card .table th {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+
+  .card .table td {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+  }
+
+  .table-responsive {
+    border: 1px solid;
+    border-color: #f7eded;
+  }
+  .div-tbl-prices-variant {
+    margin-left: 7px;
+    margin-right: 7px;
+    overflow-x: hidden;
+
+    th {
+      background-color: $table-active-bg;
+      font-size: 0.8rem !important;
+    }
+    .table-responsive {
+      overflow-x: hidden;
+    }
+
+    tbody tr:nth-of-type(even) {
+      background-color: $table-accent-bg;
+    }
+  }
+
+  .align-items-center {
+    table-layout: "fixed";
+  }
+
+  .card .table .td-noredords {
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+  }
+  .col {
+    padding: 0;
+  }
+  .btn-createprice {
+    font-size: 0.5rem;
+    margin: 0.1rem;
+    width: 18px;
+    height: 18px;
+    padding: 1px 0 0 1px;
+  }
+  .thead-light {
+    line-height: 20px;
+  }
+
+  td:nth-child(2),
+  th:nth-child(2) {
+    padding: 0 !important;
+    text-align: center;
+  }
+
+  .tbl-wrapper {
+      border: 1px solid rgb(233, 236, 239);
+      min-height: 610px;
+  }
+}

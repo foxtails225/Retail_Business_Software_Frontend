@@ -1,0 +1,24 @@
+.product-status-container {
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card .table td:not(.td-action),
+    .card .table th {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .card .collapse-table {
+        min-height: 550px;
+        border: 1px solid rgb(233, 236, 239)
+    }
+
+    .card .table td,
+    .card .table th {
+        padding: 0.7rem;
+        font-size: 0.75rem;
+        cursor: pointer;
+    }
+}

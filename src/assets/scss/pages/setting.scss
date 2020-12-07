@@ -1,0 +1,46 @@
+.setting-container {
+  .card-body {
+    margin-top: 20px;
+  }
+  hr {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    width: 100%;
+  }
+  h4 {
+    font-size: 0.8rem;
+    color: #666666;
+  }
+  .sku-title,
+  .brand-title,
+  .dropbox-title {
+    font-size: 1rem;
+  }
+  .input::placeholder {
+    color: #8898aa;
+  }
+  .brand-name,
+  .sku-number {
+    input {
+      font-size: 0.9rem;
+    }
+    input::placeholder {
+      font-size: 0.8rem;
+    }
+  }
+  .custom-file-label,
+  .custom-file-label::after {
+    padding-top: 0.75rem;
+    vertical-align: middle;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #8898aa;
+    opacity: 0.8;
+  }
+  .setting-divider {
+      // margin-top: 10%;
+      margin-bottom: 2%
+  }
+}

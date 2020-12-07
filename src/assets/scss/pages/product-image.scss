@@ -1,0 +1,82 @@
+.product-image-container {
+    .custom-product-image-card {
+        background-color: #e6e6e6;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+
+        .image-prview {
+            margin: auto;
+            width: 5vw;
+            height: 5.2vw;
+            min-width: 5vw;
+            min-height: 5.2vw;
+            border: 1px solid #595959;
+            background-color: #f8f9fe;
+        }
+
+        .image-prview-stickers {
+            margin: auto;
+            width: 5vw;
+            min-width: 5vw;
+            border: 1px solid #595959;
+            background-color: #f8f9fe;
+        }
+
+        .custom-upload-button {
+            border-radius: 6px;
+        }
+
+        .image-process {
+            margin: auto;
+            width: 12vw;
+            min-width: 90%;
+            min-height: 12vw;
+            max-height: 12vw;
+            border: 1px solid #595959;
+            background-color: #f8f9fe;
+        }
+
+        .image-upload {
+            margin: auto;
+            width: auto;
+            height: 10vh;
+            background-color: #f8f9fe;
+        }
+
+        .custom-color-picker {
+            display: flex;
+
+            .custom-color-picker-item-one {
+                width: 15px;
+                height: 15px;
+                border: 1px solid #595959;
+                border-radius: 50%;
+            }
+
+            .custom-color-picker-item-two {
+                width: 20px;
+                height: 20px;
+                border: 1px solid #595959;
+                border-radius: 50%;
+            }
+
+            .color-picker-clicked {
+                border: 1px solid #FFF;
+                box-shadow: 0 0 0 2pt #00859B;
+            }
+        }
+
+        .custom-color-picker-title {
+            display: inline-block;
+        }
+    }
+
+    .button-group-panel {
+        padding: 1rem;
+    }
+
+    .image-process-panel {
+        min-height: 16.77rem;
+    }
+}
